@@ -1,0 +1,59 @@
+.community_page {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  width: 1300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flex_end {
+  width: 77%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.tuieditor {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tuieditor .editor {
+  width: 100%;
+  display: block;
+}
+
+.tuieditor .title_input {
+  width: 100%;
+}
+
+.tuieditor .btn_wrap {
+  margin-top: 15px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.tuieditor .btn_wrap button:nth-child(1) {
+  margin-right: 10px;
+}
